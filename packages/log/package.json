@@ -1,0 +1,28 @@
+{
+  "name": "@atom-web/log",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "lichuanjie <lichuanjie@kuaishou.com>",
+  "homepage": "https://github.com/HITlicj/atom/tree/main/packages/log#readme",
+  "license": "ISC",
+  "main": "lib",
+  "module": "es",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HITlicj/atom.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:es": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/HITlicj/atom/issues"
+  }
+}
