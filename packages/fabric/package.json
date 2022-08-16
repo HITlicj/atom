@@ -12,7 +12,7 @@
     "lib"
   ],
   "author": "HITlicj",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@typescript-eslint/parser": "^5.33.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -28,5 +28,6 @@
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^27.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.5.0"
-  }
+  },
+  "gitHead": "133f265173027b0531da0b636f2deb6609b55a1e"
 }
