@@ -4,7 +4,7 @@ export function enhanceLog(arr: Array<methodName> = ['log', 'warn']) {
   return arr.forEach(function (method) {
     const oldFn = console[method];
     console[method] = function () {
-      let stack: Array<string> = (new Error()).stack?.split(/\n/) || [];
+      let stack: Array<string> = new Error().stack?.split(/\n/) || [];
       // Chrome includes a single "Error" line, FF doesn't.
       if (stack[0].indexOf('Error') === 0) {
         stack = stack.slice(1);

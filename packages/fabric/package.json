@@ -2,7 +2,7 @@
   "name": "@atom-web/fabric",
   "version": "1.0.4-beta.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:lib": "tsc && npm run copy",
@@ -14,6 +14,7 @@
   "author": "HITlicj",
   "license": "MIT",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
     "@typescript-eslint/parser": "^5.33.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",

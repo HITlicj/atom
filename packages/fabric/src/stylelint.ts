@@ -1,10 +1,10 @@
-export const stylelint = {
+module.exports = {
   extends: [
     'stylelint-config-standard',
     'stylelint-config-css-modules',
     'stylelint-config-prettier',
   ],
-  customSyntax: "postcss-less",
+  customSyntax: 'postcss-less',
   plugins: ['stylelint-declaration-block-no-ignored-properties'],
   rules: {
     'no-descending-specificity': null,

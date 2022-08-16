@@ -5,9 +5,10 @@ yarn-error.log
 .DS_Store
 **/__snapshots__/**
 **/.node/**
+*.md
 
 # 配置文件
-**/package.json
+package.json
 .gitignore
 .eslintignore
 .prettierignore
@@ -21,6 +22,7 @@ LICENSE
 # 图片相关
 *.png
 *.svg
+*.md
 
 # 打包产物
 dist

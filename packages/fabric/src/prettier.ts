@@ -1,4 +1,4 @@
-export const prettier =  {
+module.exports = {
   singleQuote: true,
   trailingComma: 'all',
   printWidth: 140,
@@ -6,6 +6,7 @@ export const prettier =  {
   useTabs: false,
   tabWidth: 2,
   jsxSingleQuote: false,
+  semi: true,
   overrides: [
     {
       files: '.prettierrc',
@@ -20,4 +21,4 @@ export const prettier =  {
       },
     },
   ],
-}
+};

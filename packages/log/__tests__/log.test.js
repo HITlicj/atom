@@ -3,5 +3,5 @@
 const log = require('..');
 
 describe('log', () => {
-    it('needs tests');
+  it('needs tests');
 });

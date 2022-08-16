@@ -19,13 +19,13 @@ LICENSE
 .history
 
 # 图片相关
-**/*.png
-**/*.svg
+*.png
+*.svg
 
 # 打包产物
-**/dist/**
-**/lib/**
-**/es/**
-**/dist/**
-**/build/**
-**/public/**
+dist
+lib
+es
+dist
+build
+public

@@ -2,10 +2,13 @@
   "name": "atom-web",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "stylelint": "stylelint '{packages,site}/**/*.less'",
+    "format": "prettier --config .prettierrc.js --write \"{packages}/**/*.{js,jsx,ts,tsx}\""
   },
   "repository": {
     "type": "git",
@@ -22,12 +25,10 @@
   "lint-staged": {
     "*.ts?(x)": [
       "prettier --write",
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ],
     "*.less": [
-      "stylelint --syntax less --fix",
-      "git add"
+      "stylelint --fix"
     ]
   },
   "husky": {
@@ -38,8 +39,12 @@
   "homepage": "https://github.com/HITlicj/atom#readme",
   "devDependencies": {
     "@types/node": "^18.7.3",
-    "lerna": "^5.1.4",
+    "@umijs/fabric": "^3.0.0",
+    "eslint": "^8.22.0",
     "husky": "^8.0.1",
-    "lint-staged": "^13.0.3"
+    "lerna": "^5.1.4",
+    "lint-staged": "^9.5.0",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.10.0"
   }
 }
