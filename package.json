@@ -23,6 +23,9 @@
     "packages/*"
   ],
   "lint-staged": {
+    "*.html": [
+      "prettier --write"
+    ],
     "*.(t|j)s?(x)": [
       "prettier --ignore-unknown --write",
       "eslint --fix"
