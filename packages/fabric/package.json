@@ -1,6 +1,6 @@
 {
   "name": "@atom-web/fabric",
-  "version": "1.0.0-beta",
+  "version": "1.0.1-beta.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,9 @@
     "build:lib": "tsc && npm run copy",
     "copy": "cp -f src/.editorconfig src/.eslintignore src/.prettierignore lib"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "author": "HITlicj",
   "license": "ISC",
   "dependencies": {

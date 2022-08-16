@@ -1,6 +1,6 @@
 {
   "name": "@atom-web/tsconfig",
-  "version": "1.0.0-beta",
+  "version": "1.0.1-beta.0",
   "description": "",
   "main": "index.js",
   "scripts": {
