@@ -8,7 +8,7 @@ node_modules
 .pnp.js
 /site
 # testing
-/coverage
+coverage
 
 # production
 /build
@@ -17,9 +17,7 @@ lib
 es
 types
 /doc-site
-
-/.tsbuildinfo
-
+.tsbuildinfo
 
 # misc
 .DS_Store
