@@ -7,13 +7,8 @@ module.exports = {
   tabWidth: 2,
   jsxSingleQuote: false,
   semi: true,
-  overrides: [
-    {
-      files: '.prettierrc',
-      options: {
-        parser: 'json',
-      },
-    },
+  overrides: [{files: '.prettierrc', options: {
+        parser: 'json',},},
     {
       files: '*.ejs',
       options: {
