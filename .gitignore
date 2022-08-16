@@ -6,18 +6,17 @@
 /node_modules
 /.pnp
 .pnp.js
-
 /site
 # testing
 /coverage
 
 # production
 /build
-/dist
+dist
 lib
 es
+types
 /doc-site
-/types
 
 /.tsbuildinfo
 
