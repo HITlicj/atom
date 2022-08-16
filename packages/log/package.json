@@ -1,10 +1,10 @@
 {
   "name": "@atom-web/log",
-  "version": "1.0.2-beta.0",
+  "version": "1.0.0-beta",
   "description": "> TODO: description",
   "author": "lichuanjie <lichuanjie@kuaishou.com>",
   "homepage": "https://github.com/HITlicj/atom/tree/main/packages/log#readme",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib",
   "module": "es",
   "directories": {
@@ -26,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/HITlicj/atom/issues"
   },
-  "gitHead": "133f265173027b0531da0b636f2deb6609b55a1e"
+  "gitHead": "50d33fb178a768b043b16a6e421b3237081315e2"
 }

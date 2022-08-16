@@ -1,6 +1,6 @@
 {
   "name": "@atom-web/tsconfig",
-  "version": "1.0.2-beta.0",
+  "version": "1.0.0-beta.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "gitHead": "133f265173027b0531da0b636f2deb6609b55a1e"
+  "license": "MIT",
+  "gitHead": "50d33fb178a768b043b16a6e421b3237081315e2"
 }
