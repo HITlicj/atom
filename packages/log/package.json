@@ -1,6 +1,6 @@
 {
   "name": "@atom-web/log",
-  "version": "1.0.0",
+  "version": "1.0.0-beta",
   "description": "> TODO: description",
   "author": "lichuanjie <lichuanjie@kuaishou.com>",
   "homepage": "https://github.com/HITlicj/atom/tree/main/packages/log#readme",
@@ -12,7 +12,8 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "es"
   ],
   "repository": {
     "type": "git",

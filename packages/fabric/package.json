@@ -1,13 +1,15 @@
 {
   "name": "@atom-web/fabric",
-  "version": "1.0.0",
+  "version": "1.0.0-beta",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:lib": "tsc"
+    "build:lib": "tsc && npm run copy",
+    "copy": "cp -f src/.editorconfig src/.eslintignore src/.prettierignore lib"
   },
-  "author": "",
+  "files": ["lib"],
+  "author": "HITlicj",
   "license": "ISC",
   "dependencies": {
     "@typescript-eslint/parser": "^5.33.0",
