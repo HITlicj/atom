@@ -23,7 +23,7 @@
     "packages/*"
   ],
   "lint-staged": {
-    "*.ts?(x)": [
+    "*.(t|j)s?(x)": [
       "prettier --write",
       "eslint --fix"
     ],
