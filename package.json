@@ -24,17 +24,12 @@
   ],
   "lint-staged": {
     "*.(t|j)s?(x)": [
-      "prettier --write",
+      "prettier --ignore-unknown --write",
       "eslint --fix"
     ],
     "*.less": [
       "stylelint --fix"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "homepage": "https://github.com/HITlicj/atom#readme",
   "devDependencies": {
