@@ -6,7 +6,7 @@
 ## 注意
 - 使用@babel/plugin-transform-runtime来做polyfill
 - 对于Promise、Set应该是宿主环境就有
-- [此配置编译的包，需要宿主包含@babel/runtime](https://www.babeljs.cn/docs/babel-plugin-transform-runtime#installation)
+- [此配置编译的包，需要宿主包含@babel/runtime-corejs3](https://www.babeljs.cn/docs/babel-plugin-transform-runtime#installation)
 
 ## Usage
 
