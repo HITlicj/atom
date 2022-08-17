@@ -13,9 +13,9 @@ const config: BaseBabelConfig = {
       {
         corejs: 3,
         proposals: true,
-      }
+      },
     ],
-    '@babel/plugin-proposal-class-properties'
+    '@babel/plugin-proposal-class-properties',
   ],
 };
 
