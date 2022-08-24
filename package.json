@@ -23,8 +23,8 @@
     "packages/*"
   ],
   "lint-staged": {
-    "*.html": [
-      "prettier --write"
+    "*.{html,md,json}": [
+      "prettier --ignore-unknown --write"
     ],
     "*.(t|j)s?(x)": [
       "prettier --ignore-unknown --write",
